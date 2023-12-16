@@ -17,5 +17,8 @@ https://www.atlassian.com/git/tutorials/syncing/git-fetch
 https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git#:~:text=When%20should%20I%20clone%20a,the%20actual%20changes%20and%20push.
 
 ## 12/16/2023
-- Wrote initial learning goals
+- Created log.md
+- Wrote initial learning goals - learning_goals.md
 - Wrote initial scope and objectives
+- Resolved issue relating git not recognizing change from Introduction.md to introduction.md: https://github.com/isaacs/github/issues/1520
+
