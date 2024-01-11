@@ -54,9 +54,35 @@ https://www.educative.io/answers/what-is-the-difference-between-forking-and-clon
     - What is the purpose of log-rank tests based on survival curve?
     - Why use the Cox proportional hazards model using multiple logistic regression with forward stepwise selection of variables to assess prognostic value of miRNAs?
     - the limma package in R was used to analyze differentially expressed miRNAs in the present study. The comparisons between tumor and normal tissues performed in limma were not conducted using a 1:1 ratio of tumor to healthy tissue, as healthy tissue specimens were not obtained from the majority of patients. Therefore, the tumor tissue from each patient was compared with all healthy tissue specimens. This approach eliminates the impacts of individual patient treatment options or other diseases. I want to know how they set up this comparison.
-    - To the researches knowledge at the time of publishing, the present study was the first to describe an association between miR‐659 and breast cancer. Other studies have focused on the role of miR-659 in muscle development and nervous system and metabolic diseases, such as frontotemporal dementia and diabetes mellitus (46-48). Thus, the mechanism of miR-659-5p in breast cancer requires further investigation. This could be an area for me to focus on. 
+    - To the researcher's knowledge at the time of publishing, the present study was the first to describe an association between miR‐659 and breast cancer. Other studies have focused on the role of miR-659 in muscle development and nervous system and metabolic diseases, such as frontotemporal dementia and diabetes mellitus (46-48). Thus, the mechanism of miR-659-5p in breast cancer requires further investigation. This could be an area for me to focus on. 
 
 ## 12/28/2023
 - Rather than trying to create a novel research question, I would like to document the choices I make throughout the process of the analysis to demonstrate the start to finish process of a bioinformatic pipeline. 
 - Created data_sources.md file and researched potential open-source databases that I could use in my analysis
 - I am still unsure of the research target
+
+## 1/11/2024
+- Started writing preliminary research proposal
+- Collected initial literature to begin reading: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1038-1
+
+https://academic.oup.com/bioinformatics/article/24/9/1154/206630
+
+https://arxiv.org/pdf/1511.08317.pdf
+
+https://frontlinegenomics.com/multi-omics-data-integration-and-bioinformatics/
+
+https://www.sciencedirect.com/science/article/abs/pii/S1476927121000827
+
+https://www.altexsoft.com/blog/omics-data-analysis/
+
+https://www.hindawi.com/journals/isrn/2014/345106/
+
+https://scholarworks.waldenu.edu/cgi/viewcontent.cgi?article=8744&context=dissertations
+
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04048-0
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3599117/
+
+https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/current/index.php?manual=Combine_Reports.html
+
+https://figshare.com/articles/dataset/High-Throughput_Tabular_Data_Processor_Platform_independent_graphical_tool_for_processing_large_data_sets/5880640
