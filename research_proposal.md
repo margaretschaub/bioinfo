@@ -35,12 +35,12 @@ I would seperate the challenges of cross dataset survey work into 2 broad catego
 1. Infrastructure Challenges
 2. Statistical Challenges
 
-Infrastructure challenges pertain to the overall organization, storage, and accessibility of omics data across various databases. These challenges often involve discrepancies in data formats, variable names, and annotations, hindering seamless integration. Examples include:
+**Infrastructure challenges** pertain to the overall organization, storage, and accessibility of omics data across various databases. These challenges often involve discrepancies in data formats, variable names, and annotations, hindering seamless integration. Examples include:
 
-**Inconsistent Variable Names**: Databases may use different nomenclatures for variables, making it challenging to harmonize data for integration.
-**Incomplete Metadata**: Insufficient metadata descriptions in public repositories can limit the understanding of data sources, collection methods, and other crucial details.
-**Data Format Variability**: Omics data may be stored in diverse formats, requiring conversion and standardization efforts for uniform analysis.
-**Lack of Unified Standards**: Absence of consistent standards and protocols across databases hampers efficient data integration and collaborative research efforts.
+- Inconsistent Variable Names: Databases may use different nomenclatures for variables, making it challenging to harmonize data for integration.
+- Incomplete Metadata: Insufficient metadata descriptions in public repositories can limit the understanding of data sources, collection methods, and other crucial details.
+- Data Format Variability: Omics data may be stored in diverse formats, requiring conversion and standardization efforts for uniform analysis.
+- Lack of Unified Standards: Absence of consistent standards and protocols across databases hampers efficient data integration and collaborative research efforts.
 
 The doctoral dissertation by Fakhry (2019) delves into strategies employed by bioinformatics specialists to integrate disparate bioinformatics datasets. The study, conducted in a research institution in Lebanon, involved interviews with six bioinformatics specialists and a review of 27 organizational documents. Thematic analysis revealed key themes related to integrating bioinformatics datasets, including a focus on integration, adding metadata to submitted datasets, the establishment of a centralized bioinformatics database, allocation of resources, and utilization of bioinformatics tools.
 
@@ -48,15 +48,13 @@ The dissertation emphasizes the importance of collaboration in bioinformatics, c
 
 Key themes from the interviews include the need for standardizing techniques, adding metadata to ensure data comprehensiveness, and centralizing data to increase efficiency. The dissertation underscores the significance of data homogenization as a major challenge faced by bioinformatics specialists. Moreover, it emphasizes the importance of metadata in enhancing the utility of submitted data and the establishment of a centralized bioinformatics database.
 
-2. Statistical Challenges in Omics Data Integration:
+**Statistical challenges**  focus on the complexities arising during the merging and analysis of omics data from different sources. These challenges demand advanced methodologies to account for batch effects, variability, and other statistical nuances. Examples include:
 
-Statistical challenges focus on the complexities arising during the merging and analysis of omics data from different sources. These challenges demand advanced methodologies to account for batch effects, variability, and other statistical nuances. Examples include:
-
-**Batch Effects**: Technical variations introduced during data generation, known as batch effects, can confound integrated results. 
-**Data Imputation**: Addressing missing data involves imputation methods, such as mean imputation or k-nearest neighbor imputation, to estimate values based on available data. Care is taken to avoid introducing bias.
-**Dimensionality Reduction**: The increase in variables due to multiple platforms or large-scale datasets requires dimensionality reduction techniques, including feature extraction or selection, to enhance the interpretability and efficiency of downstream analyses.
-**Scalability Concerns**: The sheer size and complexity of multi-omics datasets can pose challenges for traditional machine learning methods, necessitating scalable approaches for efficient analysis.
-**Heterogeneous Data Integration**: Datasets with varying numbers of variables, mismatched scaling, and different generation platforms require sophisticated statistical models, such as decision trees, regression models, or neural networks, to handle the heterogeneity effectively.
+- Batch Effects: Technical variations introduced during data generation, known as batch effects, can confound integrated results. 
+- Data Imputation: Addressing missing data involves imputation methods, such as mean imputation or k-nearest neighbor imputation, to estimate values based on available data. Care is taken to avoid introducing bias.
+- Dimensionality Reduction: The increase in variables due to multiple platforms or large-scale datasets requires dimensionality reduction techniques, including feature extraction or selection, to enhance the interpretability and efficiency of downstream analyses.
+- Scalability Concerns: The sheer size and complexity of multi-omics datasets can pose challenges for traditional machine learning methods, necessitating scalable approaches for efficient analysis.
+- Heterogeneous Data Integration: Datasets with varying numbers of variables, mismatched scaling, and different generation platforms require sophisticated statistical models, such as decision trees, regression models, or neural networks, to handle the heterogeneity effectively.
 
 ## Integration of Microarray and RNA-seq Data:
 
@@ -108,9 +106,6 @@ Gene set enrichment analysis (GSEA) is identified as a popular downstream analys
 7. Validation through independent datasets or experimental validation is recommended.
 8. Addressing potential biases and limitations, such as publication bias or selective reporting.
 
-## Software Packages:
-- Limma: Used for differential expression analysis of microarray and RNA-seq data, utilizing linear models and moderated t-statistics.
-- DESeq2: Specifically designed for differential gene expression analysis based on the negative binomial distribution.
 
 # Methodology
 
