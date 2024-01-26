@@ -86,3 +86,31 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3599117/
 https://resources.qiagenbioinformatics.com/manuals/clcgenomicsworkbench/current/index.php?manual=Combine_Reports.html
 
 https://figshare.com/articles/dataset/High-Throughput_Tabular_Data_Processor_Platform_independent_graphical_tool_for_processing_large_data_sets/5880640
+
+# 1/13/2024
+- Began reading current literature
+
+- Question: Is the raw microarray data for a given source preprocessed? Does preprocessing technique vary if you are planning to combine with another platform's data? 
+
+- Common reasons for data preprocessing include:
+    - Cleaning Data: Identifying and handling missing values. Handling outliers or erroneous data points. Correcting inconsistencies in the data.
+    - Normalization or Standardization: Scaling numerical features to a standard range. Ensuring that different features have comparable scales. Normalizing data to reduce the impact of variations in magnitude.
+    - Feature Engineering: Creating new features or transforming existing ones to enhance the model's performance. Handling categorical variables through techniques like one-hot encoding.
+    - Dealing with Imbalances: Addressing class imbalances in classification problems.
+    - Handling Noisy Data: Removing irrelevant or redundant features. Smoothing noisy data through techniques like filtering.
+    - Formatting for Analysis: Organizing data in a way that facilitates analysis. Ensuring the data adheres to the assumptions of the chosen analysis methods.
+
+- Even when working with a single dataset, these preprocessing steps help ensure that the data is in a suitable state for analysis and that the results are more accurate and reliable.
+
+# 1/21/2024
+- Reading current literature
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1038-1
+https://www.hindawi.com/journals/isrn/2014/345106/
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-15-91
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9539251/
+https://www.frontiersin.org/articles/10.3389/fgene.2022.983043/full
+https://scholarworks.waldenu.edu/cgi/viewcontent.cgi?article=8744&context=dissertations
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003173/
+https://www.elucidata.io/blog/geo-datasets-for-transcriptomics-meta-analysis-in-research
+https://pluto.bio/blog/differential-expression-analysis-techniques-and-benefits
+

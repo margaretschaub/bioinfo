@@ -1,0 +1,5 @@
+# Merging two gene-expression studies via cross-platform normalization
+Andrey A. Shabalin, Håkon Tjelmeland, Cheng Fan, Charles M. Perou, Andrew B. Nobel, Merging two gene-expression studies via cross-platform normalization, Bioinformatics, Volume 24, Issue 9, May 2008, Pages 1154–1160, https://doi.org/10.1093/bioinformatics/btn083
+
+- Combining data from different expression studies poses a number of statistical difficulties. These diffi- culties arise from the fact that the constituent datasets have often been produced using different gene-expression platforms and different processing facilities. 
+- Identifying and removing such systematic effects is the primary statistical challenge in cross-study analysis. Technological differences between studies may be confounded with biological differences arising from the choice of patient cohorts (e.g. age, gender or ethnicity).
