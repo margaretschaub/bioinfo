@@ -2,7 +2,7 @@
 
 **Overview**
 Biomarkers to potentially explore for leukemia = CD123, CD33, CD138, CD52, CD34, CD22, NPM1 protein, FLT3 protein 
-Hub genes: ABCA6, CCDC88A, PMEPA1, EBF1, FILIP1L, and TEAD2
+& Hub genes: ABCA6, CCDC88A, PMEPA1, EBF1, FILIP1L, and TEAD2
 
 Biomarkers to potentially explore for lymphoma = CD20, CD30, BCL2, MYC gene, CD79b protein
 
@@ -35,8 +35,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5594739/#:~:text=In%20normal%20indi
 
 - Nucleophosmin (NPM1) Mutations in Adult and Childhood Acute Myeloid Leukemia: Towards Definition of a New Leukemia Entity https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3069851/#:~:text=The%20nucleophosmin%20gene%20(NPM1)%20is,in%20many%20basic%20cellular%20processes.
 
--Identification of Six Diagnostic Biomarkers for Chronic Lymphocytic Leukemia Based on Machine Learning Algorithms 
-
+- Identification of Six Diagnostic Biomarkers for Chronic Lymphocytic Leukemia Based on Machine Learning Algorithms 
 Yidong Zhu, Xinjin Gan, Ruoyan Qin, Zhikang Lin, "Identification of Six Diagnostic Biomarkers for Chronic Lymphocytic Leukemia Based on Machine Learning Algorithms", Journal of Oncology, vol. 2022, Article ID 3652107, 19 pages, 2022. https://doi.org/10.1155/2022/3652107
 
 
