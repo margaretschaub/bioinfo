@@ -13,6 +13,11 @@ CD123, CD33, CD138, CD52, CD34
 The most clinically important point is that mutation of the FLT3 gene is the most frequent genetic alteration and a poor prognostic factor in acute myeloid leukemia (AML) patients. There are two major types of FLT3 mutations: internal tandem duplication mutations in the juxtamembrane domain (FLT3‐ITD) and point mutations or deletion in the tyrosine kinase domain (FLT3‐TKD). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7004512/
 
     What is the protein result of a mutation in FLT3?? 
+    
+Taking a preliminary look into FLT3 mutations on TCGA with criteria "Disease Type IS acute lymphoblastic leukemia AND Primary Site IS hematopoietic and reticuloendothelial systems" the mutation type columnn is not showing any internal tandem duplications like the above research article mentioins are common in nthe juxtamembrane domain. I am not sure if TCGA has the capability to show duplication mutations. According to this article, Genomon ITDetector: a tool for somatic internal tandem duplication detection from cancer genome sequencing data, these type of mutations can be hard to detect. The authors created a tool to detect not only common ITDs involving FLT3, but also a number of ITDs affecting other putative driver genes in acute myeloid leukemia exome sequencing data.
+
+https://academic.oup.com/bioinformatics/article/31/1/116/2365706
+
 
 Nucleophosmin, also known as nucleolar phosphoprotein B23 or numatrin, is a protein that in humans is encoded by the NPM1 gene
 
@@ -35,13 +40,13 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5594739/#:~:text=In%20normal%20indi
 
 - Nucleophosmin (NPM1) Mutations in Adult and Childhood Acute Myeloid Leukemia: Towards Definition of a New Leukemia Entity https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3069851/#:~:text=The%20nucleophosmin%20gene%20(NPM1)%20is,in%20many%20basic%20cellular%20processes.
 
-- Identification of Six Diagnostic Biomarkers for Chronic Lymphocytic Leukemia Based on Machine Learning Algorithms 
+- Identification of Six Diagnostic Biomarkers for Chronic Lymphocytic Leukemia Based on Machine Learning Algorithms: 
 Yidong Zhu, Xinjin Gan, Ruoyan Qin, Zhikang Lin, "Identification of Six Diagnostic Biomarkers for Chronic Lymphocytic Leukemia Based on Machine Learning Algorithms", Journal of Oncology, vol. 2022, Article ID 3652107, 19 pages, 2022. https://doi.org/10.1155/2022/3652107
 
 
 ## Lymphoma
 
-CD20, CD30, BCL2, MYC
+CD20, CD30, BCL2, MYC, CD19
 
 ADC Targets:
 
