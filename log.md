@@ -118,3 +118,73 @@ https://pluto.bio/blog/differential-expression-analysis-techniques-and-benefits
 - Created literature folder
 - This literature folder contains sources I read to form my knowledge base for this project. In each file, I have copied phrases or paragraphs that were of interest to me directly from each source. This way, I could refer back to see exactly how the authors phrased their findings. I tried to include quotations when I directly copy and pasted significant paragraphs, however many of the bullet points contain direct words from the corresponding research article. 
 ## Disclaimer: These are not my own words or my own summaries. Each file has the link to the attributed source.
+- Updated research proposal with literatue findings and rough methodology
+
+# 2/9/2024
+- Research and created biomarkers.md
+- What is the expression of a particular biomarker - in a healthy cell? across tissue? across population? in different animals? in disease? 
+- What do expression profiles look like
+- Try to correlate this to protein expression if possible- hypothesis if increased RNA, is there really increased protein? 
+- Potentially look at expression in animals like mice as well- is this a viable target to be able to test on animals?
+
+# 2/15/2024
+- Looking at cross-species, cross tissue, healthy/vs tumor evaluation of expression (protein and mRNA) 
+- Some helpful visuals (some of which use TCGA data) to search for expression profiles across tissue/cancer types:  
+    - TNMplot - https://tnmplot.com/analysis/ : shows differential gene expression in tumor versus normal.
+    - GTEx portal - https://www.gtexportal.org/home/gene/CD34 : bulk tissue or single tissue gene expression across healthy tissues
+    - The Human Protein Atlas - https://www.proteinatlas.org/ENSG00000174059-CD34/tissue : expression profiles in healthy human tissues of on the mRNA and protein level
+    - USCS Genome Browser https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=1924540236_YnIvd0hYPhovAQYaFCNeeGa6Tweh&c=chr1&g=tcgaTranscExpr : Transcript-level expression in 33 TCGA Cancer Tissues
+    
+- Ideas: 
+    1. Drilling down on the difference between mRNA levels and protein expression: One area of interest to me is comparing the bulk tissue RNA expression (from GTEx) to the protein expression overview (from The Human Protein Atlas- HPA). For example, with CD34, at first glance, there is high mRNA expression in breast tissue, but no protein expression in breast tissue. I wonder if there would be a way to characterize this phenomenon. I am not sure if there is a way to directly compare GTEx samples to the HPA ones (only 40 people sampled), but HPA does have mRNA expression profiles that would make a direct comparison statistically easier? This would be done applying the lens of the potential biomarkers I highlighted. An additional layer could be added by then comparing this to the mRNA and protein expression in cancer patients. 
+
+    2. Building a better tool to query for mRNA expression using TCGA data. The USCS Genome Browser sort of accomplishes this, but in my opinion, is very cluttered and not intuitive to use. TNM plot does have an element of this, but also involves the additional layer of comparing to normal and doesn’t have a way to download raw data. I’m envisioning a way to compare expression of a particular biomarker across cancer type with the ability to change variables (like age, gender) and a way to download access the data. This is sort of a merge of GDC and TNM plot. 
+    
+- "It has been proposed that three potential reasons for the lack of a strong correlation between mRNA and protein expression levels are: (i) translational regulation, (ii) differences in protein in vivo half-lives, and (iii) the significant amount of experimental error, including differences with respect to the experimental conditions (Greenbaum et al. 2003; Beyer et al. 2004). We recently performed a quantitative analysis of the contributions of various biochemical and physical sources to the correlation of mRNA and protein abundance in Desulfovibrio vulgaris. The results showed that analytic variations in mRNA expression and protein abundance contributed to 34–44% of the total variation of mRNA–protein correlation, and protein and mRNA stabilities contributed to 5 and 2% of the total variation of mRNA–protein correlation, respectively (Nie et al. 2006a). "(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1698625/#:~:text=It%20has%20been%20proposed%20that,differences%20with%20respect%20to%20the) 
+
+- https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-018-0463-6 : Evidence that GTEX can be used for matched normal 
+
+- https://www.nature.com/articles/sdata201861 - Unifying cancer and normal RNA sequencing data from different sources: we developed a pipeline that processes and unifies RNA-seq data from different studies, which includes uniform realignment, gene expression quantification, and batch effect removal
+
+# 2/18/2024
+
+## Mouse Databases
+
+- https://www.informatics.jax.org/expression.shtml
+
+-  https://www.informatics.jax.org/gxd#gxd=nomenclature%3DCD34%26vocabTerm%3D%26annotationId%3D%26locations%3D%26locationUnit%3Dbp%26structure%3D%26structureID%3D%26theilerStage%3D0%26assayType%3DImmunohistochemistry%26assayType%3DIn%20situ%20reporter%20%28knock%20in%29%26assayType%3DRNA%20in%20situ%26assayType%3DNorthern%20blot%26assayType%3DNuclease%20S1%26assayType%3DRNase%20protection%26assayType%3DRT-PCR%26assayType%3DWestern%20blot%26results%3D100%26startIndex%3D0%26sort%3D%26dir%3Dasc%26tab%3Dstagegridtab%26structureIDFilter%3DEMAPA%3A25765
+
+- Singel cell human and mouse : https://bio.liclab.net/SCInter/index.php
+
+- Cell Marker 2.0 for mouse - http://117.50.127.228/CellMarker/index.html Described here https://academic.oup.com/nar/article/51/D1/D870/6775381 markers of different cell types have been gradually disclosed (10,11). In order to distinguish different cell types in different tissues, we reported the first version of CellMarker database (CellMarker 1.0), which enabled users to search for all known experimentally supported markers for different cell types in various organs in humans or mouse.
+
+- Mammalian Transcriptomic Database https://ngdc.cncb.ac.cn/mtd/search.php This might be helpful but I have no idea how to read the graphs? 
+
+- A mouse tissue atlas of small noncoding RNA https://www.pnas.org/doi/full/10.1073/pnas.2002277117#data-availability
+
+- A tissue-specific atlas of mouse protein phosphorylation and expression https://www.ebi.ac.uk/gxa/experiments/E-PROT-13/Results?specific=true&geneQuery=%255B%257B%2522value%2522%253A%2522CD34%2522%252C%2522category%2522%253A%2522symbol%2522%257D%255D&filterFactors=%257B%257D&cutoff=%257B%2522value%2522%253A0.000001%257D
+
+- Creating something like the protein atlas - mRNA per tissue but for the mouse ? Does this exist? 
+Could maybe use MGI to create
+
+- https://www.immgen.org/Databrowser19/DatabrowserPage.html
+
+- Mouse Models of Human Cancer Database (MMHCdb) - https://tumor.informatics.jax.org/mtbwi/index.do
+
+- EMAGE (e-Mouse Atlas of Gene Expression) is an online biological database of gene expression data in the developing mouse (Mus musculus) embryo. http://www.emouseatlas.org/emage/
+
+- https://www.mousephenotype.org/
+
+- http://www.noncode.org/index.php
+
+- Potential mouse protein database - https://swissmodel.expasy.org/repository/species/10090
+- neuroscience transcriptomic genetic data for collaborative research on genomic disorders. https://phenogen.org/index.jsp
+
+# 2/25/2024
+- Tried to find Python program to more easily download GDC data. Since there is a new Data Portal, it appears some of the API has changed. There are also variables categorized as new names. This promising package did not work with the new portal: https://github.com/vappiah/DataMiner
+- Learned some basic R, installed R studio then BiocManager to access Bioconductor and utilize TCGAbiolinks - https://github.com/tiagochst
+    - BiocManager::install("remotes")
+    - BiocManager::install("BioinformaticsFMRP/TCGAbiolinks")
+- Download data from GDC Portal using TCGAbiolinks R Package
+- Played around with TCGA-OV (ovarian cancer) because working on a biomarker project related to OC in Master's class
+
