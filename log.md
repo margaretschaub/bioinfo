@@ -188,3 +188,10 @@ Could maybe use MGI to create
 - Download data from GDC Portal using TCGAbiolinks R Package
 - Played around with TCGA-OV (ovarian cancer) because working on a biomarker project related to OC in Master's class
 
+# 3/1/2024, 3/2/2024
+- Download TCGA clinical data using TCGAbiolinks
+- Set up infrastructure for deseq2 analysis
+- Main challenge was aligning barcodes from transcriptome and patient data, needed to have only first 12 characters from transcriptome data to match patient data barcode. Great explanation here: https://gist.github.com/agrueneberg/404bf469f249deeef5ac
+- Played around with matching rownames and columnnames, making sure same name and order
+- I only downloaded 3 patient barcodes for transcriptome and patient data just due to size constraints on my laptop. I plan to download all samples and use this workflow but wanted to get it relatively set up and error free before working with massive amounts of data
+- Created a new columnn in clinical data to use as the design factor. Age younger or older than 50. This column is either 0 or 1 based off age data. Note: There is difference between age and diagnosis, and sample age. I would like to use age at sample, but for some reason clinical data obtained from GDCquery(project = "TCGA-OV", data.category = "Clinical".. does not have this. GDCquery_clinic(project = "TCGA-OV", type = "clinical") does. But with query_clinic there is not a way to select specific barcodes (from what I can tell), therefore I download ALL clinic data. I will need to do this eventually, but to set up the workflow I only wanted a few samples for computing ease. If goes as expected, when I download all data - all samples for transcriptome and clinical, I can use GDC query clinic and change variable to calculate new_age (design factor column) to be the age at sample (versus age at diagnosis which is current indicator) 
