@@ -15,10 +15,13 @@ print(ovary)
 row <- rownames(colData)
 print(row)
 
-# all(colnames(ov_matrix) %in% rownames(colData))
+rownames(colData) <- colData$bcr_patient_barcode
 
-barcode_column <- colData$bcr_patient_barcode
-all(colnames(ov_matrix) %in% barcode_column)
+all(colnames(ov_matrix) %in% rownames(colData))
+
+all(colnames(ov_matrix) == rownames(colData))
+
+# if order doesn't match 
 
 barcode_order_matches <- identical(colnames(ov_matrix), barcode_column)
 
@@ -26,8 +29,7 @@ barcode_order <- colnames(ov_matrix)
 ov_matrix <- ov_matrix[, match(barcode_order, barcode_column)]
 barcode_order_matches <- identical(colnames(ov_matrix), barcode_column)
 
-
-
+# creating deseq object
 dds <- DESeqDataSetFromMatrix(countData= ov_matrix,
                        colData = colData,
                        design = ~ new_age)
