@@ -10,6 +10,7 @@ print(valid_columns)
 
 cut_ov <- cut_ov[, valid_columns]
 
+test_variants(colnames(cut_ov))
 
 all(colnames(cut_ov) %in% rownames(cut_clinical))
 all(colnames(cut_ov) == rownames(cut_clinical))
@@ -69,4 +70,5 @@ up_genes_stage<- res_stage_df$symbol[res_stage_df$diffexpressed == "UP" &
                                   res_stage_df$log2FoldChange > 1]
 print(up_genes_stage)
 
+#check for unique!!
 
